@@ -1,0 +1,61 @@
+.title {
+    text-align: center;
+    font-size: 48px;
+    color: #37424c;
+    margin-bottom: 40px;
+}
+
+.products {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.product {
+    flex-basis: 475px;
+    display: flex;
+    justify-content: center;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.titleP {
+    font-size: 24px;
+    color: black;
+}
+
+.descrP {
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.back {
+    color: #9e9c9c;
+    float: right;
+}
+
+.snipcart-add-item {
+    margin-left: calc(50% - 150px);
+    width: 300px;
+    height: 50px;
+    background-color: black;
+    border: navajowhite;
+    color: white;
+    font-size: 18px;
+}
+
+.product a {
+    padding: 20px;
+}
+
+.product a:hover {
+    background-color: #fbfbfb;
+}
+
+img {
+    height: 250px;
+}

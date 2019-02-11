@@ -1,0 +1,21 @@
+{
+  "name": "3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "next build",
+    "export": "next export",
+    "deploy": "next build && next export",
+    "start": "next"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "next": "^7.0.3",
+    "react": "^16.8.1",
+    "react-dom": "^16.8.1",
+    "react-redux": "^6.0.0",
+    "redux": "^4.0.1"
+  }
+}
